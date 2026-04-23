@@ -1,0 +1,99 @@
+body {
+  background: #e5e5e5;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 350px;
+  margin: 40px auto;
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+.header {
+  background: #4338ca;
+  color: white;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  font-weight: bold;
+}
+
+/* FORM */
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.btn-primary {
+  background: #4338ca;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #3730a3;
+}
+
+/* TARJETA */
+.card {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #4338ca;
+  border-radius: 15px;
+  background: #eef2ff;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background: #4338ca;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid #4338ca;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #4338ca;
+}
+
+.divider {
+  margin: 10px 0;
+  height: 1px;
+  background: #ccc;
+}
+
+/* BOTON LIMPIAR */
+.btn-reset {
+  margin: 0 20px;
+  width: calc(100% - 40px);
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
